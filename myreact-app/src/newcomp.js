@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Nc = (props) => {
+export const Nc = (props) => {
   return (
   <div>
   <h1>Whats your name?</h1>
@@ -13,7 +13,7 @@ const Nc = (props) => {
   );
 };
 
-const App2=()=><h1>react app</h1>;
+export const App2=()=><h1>react app</h1>;
 
 Nc.propTypes={
   names: PropTypes.string,
@@ -27,4 +27,3 @@ Nc.defaultProps={
 };
 
 
-export {Nc,App2};
