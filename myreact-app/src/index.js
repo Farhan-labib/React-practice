@@ -9,6 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Nc names="Farhan"/>
+    <Nc names="Labib"/>
   </React.StrictMode>
 );
 
