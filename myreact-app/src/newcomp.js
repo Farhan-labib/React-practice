@@ -6,7 +6,10 @@ import PropTypes from "prop-types";
 class Newcomp extends Component {
   render(){
     return(
+      <>
       <h1>MD. FARHAN LABIB JAHIN</h1>
+      <h1>Age:{this.props.age}</h1>
+     </> 
     );
   };
 }
