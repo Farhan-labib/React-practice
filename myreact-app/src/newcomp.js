@@ -7,9 +7,13 @@ const Nc = (props) => {
   <h1>Whats your name?</h1>
   <h2>Hello Im {props.names}</h2>
   <h2>Age: {props.age}</h2>
+  <App2/>
   </div>
+  
   );
 };
+
+const App2=()=><h1>react app</h1>;
 
 Nc.propTypes={
   names: PropTypes.string,
@@ -23,4 +27,4 @@ Nc.defaultProps={
 };
 
 
-export {Nc};
+export {Nc,App2};
