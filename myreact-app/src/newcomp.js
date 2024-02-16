@@ -1,9 +1,9 @@
-import React from "react";
+import React,{Component} from "react";
 import PropTypes from "prop-types";
 
 
 
-class Newcomp extends React.Component {
+class Newcomp extends Component {
   render(){
     return(
       <h1>MD. FARHAN LABIB JAHIN</h1>
