@@ -23,4 +23,4 @@ Nc.defaultProps={
 };
 
 
-export default Nc;
+export {Nc};
