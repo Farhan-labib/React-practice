@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Nc names="Farhan" age={24}><button>Login</button> </Nc>
+    <Nc age={24}/>
     <Nc names="Labib"/>
   </React.StrictMode>
 );

@@ -14,7 +14,13 @@ function Nc(props) {
 
 Nc.propTypes={
   names: PropTypes.string,
-  age:PropTypes.number
+  age:PropTypes.number,
+  
+};
+
+Nc.defaultProps={
+  names: "jahin",
+  age: 27
 };
 
 
