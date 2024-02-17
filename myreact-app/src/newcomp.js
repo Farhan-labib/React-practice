@@ -4,11 +4,18 @@ import PropTypes from "prop-types";
 
 
 class Newcomp extends Component {
+  constructor(){
+super();
+this.state={
+
+  var1: "this is state"
+};
+  };
   render(){
     return(
       <>
       <h1>MD. FARHAN LABIB JAHIN</h1>
-      <h1>Age:{this.props.age}</h1>
+      <h1>Age:{this.state.var1}</h1>
      </> 
     );
   };
