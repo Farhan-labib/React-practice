@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import {App} from './App';
 import Newcomp from './newcomp';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Newcomp age={24}/>
+    <App name="Farhan" age={24}/>
   </React.StrictMode>
 );
 

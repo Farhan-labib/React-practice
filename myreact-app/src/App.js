@@ -1,7 +1,12 @@
-function App() {
-  return (
-   <h1>my name is jahin</h1>
-  );
-}
+import React,{Component} from "react";
+import PropTypes from "prop-types";
 
-export default App;
+const App=({name,age})=>{
+ return( 
+   <div>
+<h2>{name}{age}</h2>
+   </div>
+ );
+};
+
+export {App};
