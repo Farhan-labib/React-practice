@@ -1,14 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {Parent} from './Parent';
+import {USComponent} from './USComponent';
 import {Child} from './Child';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Parent/>
+    <USComponent/>
   </React.StrictMode>
 );
 
