@@ -1,10 +1,23 @@
 import React,{useState} from 'react';
 
 export const USComponent=()=>{
-    const a= useState("FARHAN");
+    
+    const temp={
+        name:"FARHAN",
+        age:23,
+        Gender:"Male" };
+    const [info,changeinfo]= useState(temp);
+    const change=()=>{
+        changeinfo(
+            {
+                name:"LABIB"
+            }
+        )
+
+    };
     return (
 <div>
-<h1>{a[0]}</h1>
-<button onClick={()=>a[1]("LABIB")}>CLICK </button>
+<h1>{info.name}</h1>
+<button onClick={change}>CLICK </button>
 </div>
 ) };
