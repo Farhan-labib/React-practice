@@ -11,11 +11,20 @@ this.state={
   var1: "this is state"
 };
   };
+
+ changename=()=>{
+  this.setState({
+    var1:"hello world"
+  });
+
+ };
+ 
   render(){
     return(
       <>
       <h1>MD. FARHAN LABIB JAHIN</h1>
       <h1>Age:{this.state.var1}</h1>
+      <input value="button" type="button" onClick={()=>this.changename()}/>
      </> 
     );
   };
