@@ -2,7 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import {USComponent} from './USComponent';
-import {Child} from './Child';
+import {Child1} from './Child1';
+import {Child2} from './Child2';
+import {Child3} from './Child3';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
