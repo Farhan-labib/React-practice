@@ -1,12 +1,16 @@
-import React,{createContext, useEffect} from 'react';
-import { Child1 } from './Child1';
-export const context=createContext();
+import React,{useState, useEffect} from 'react';
+
 export const USComponent=()=>{
-    
+
+
+    const [info,stinfo]=useState("");
+    console.log(info);
+
     return (
 <div>
-<context.Provider  value={"LABIB"}>
-<Child1/>
-</context.Provider>   
+<form>
+<input type='text' value={info} onChange={(e)=>stinfo(e.target.value)}/>
+ 
+</form>
 </div>
 ) };
