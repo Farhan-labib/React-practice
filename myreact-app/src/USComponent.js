@@ -3,8 +3,9 @@ import React,{useEffect} from 'react';
 export const USComponent=()=>{
     
    useEffect(()=>{
-    alert("HELLO")
-   })
+    alert("HELLO")}
+//     , [//we can apply condition here]
+)
     return (
 <div>
 
