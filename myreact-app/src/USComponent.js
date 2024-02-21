@@ -1,15 +1,16 @@
 import React,{useRef} from 'react';
-
+import { Route,Routes } from 'react-router-dom';
+import {Child1} from './Child1';
+import {Child2} from './Child2';
+import {Child3} from './Child3';
 export const USComponent=()=>{
-    const hook=useRef();
-    const chnagecolor=()=>{
-        hook.current.style.color="red";
-    }
+   
     return (
-        <div>
-            <h1 ref={hook}>"Hello world"</h1>
-            <button onClick={chnagecolor}>Change color</button>
-        </div>
+        <Routes>
+            <Route path='/' element={<Child1/>} />
+            <Route path='/2' element={<Child2/>} />
+            <Route path='/3' element={<Child3/>} />
+        </Routes>
 
     );
 };
