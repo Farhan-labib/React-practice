@@ -6,7 +6,7 @@ export const Child3=()=>{
         <>
         <h1>im child3</h1>
         <nav>
-        <NavLink to='g1'>grandchild1 </NavLink>
+        <NavLink to=''>grandchild1 </NavLink>
         <NavLink to='g2'>grandchild2 </NavLink>
         </nav>
         <Outlet/>
