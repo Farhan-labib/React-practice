@@ -1,10 +1,10 @@
-import {Link } from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 export const Navbar=()=>{
     return (
         <nav>
-        <Link to='/'>CHILD1</Link>
-        <Link to='/2'>CHILD2</Link>
-        <Link to='/3'>CHILD3</Link>
+        <NavLink to='/'>CHILD1</NavLink>
+        <NavLink to='/2'>CHILD2</NavLink>
+        <NavLink to='/3'>CHILD3</NavLink>
  
  
         </nav>
