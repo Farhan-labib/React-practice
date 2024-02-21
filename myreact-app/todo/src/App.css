@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +36,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.header{
+  color: green;
+  background-color: antiquewhite;
+  font-size: 60px; 
+
+}
+
+.maindiv{
+  background-color: #282c34;
+  height: 480px;
+
+}
+button {
+  font-size: 16px; 
+  padding: 10px; 
+  width: 70px; 
+}
+
+input {
+  font-size: 16px; 
+  padding: 10px; 
+  width: 300px; 
+}
+
+.info{
+  background-color:gainsboro;
+  font-size: 36px; 
+
+  
 }

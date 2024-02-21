@@ -14,9 +14,9 @@ export const Add = ({ addTodo }) => {
     }
 
     return (
-        <div>
+        <div >
             <form onSubmit={handleSubmit}>
-                <input type="text" value={value} onChange={handleChange} />
+                <input type="text" value={value} placeholder='Add your task' onChange={handleChange} />
                 <button type="submit">Add</button>
             </form>
         </div>

@@ -17,7 +17,7 @@ export const Main = () => {
 
     return (
         <>
-            <h2>ToDo List</h2>
+            <h2 className='header'>ToDo List</h2>
             <Add addTodo={addTodo} />
             {li.map((todo) => (
                 <Show task={todo} key={todo.id} onDelete={deleteTodo} />

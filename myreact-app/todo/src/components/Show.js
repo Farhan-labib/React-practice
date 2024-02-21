@@ -7,9 +7,10 @@ export const Show = ({ task, onDelete }) => {
     }
 
     return (
-        <div>
+        <div className="info">
             <p>{task.task}</p>
             <button onClick={handleDelete}>Delete</button>
+            <hr/>
         </div>
     );
 }
