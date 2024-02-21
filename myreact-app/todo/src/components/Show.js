@@ -1,14 +1,15 @@
+
 import React from "react";
 
-export const Show = ({ task }) => {
+export const Show = ({ task, onDelete }) => {
+    const handleDelete = () => {
+        onDelete(task.id);
+    }
+
     return (
         <div>
             <p>{task.task}</p>
-            <button>Edit</button>
-        
-            <button>Delete</button>
-            <hr/>
-
+            <button onClick={handleDelete}>Delete</button>
         </div>
     );
 }
